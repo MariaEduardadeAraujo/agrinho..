@@ -1,24 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agricultura Familiar Game</title>
+    <title>Agricultura Familiar</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="game-screen">
-        <!-- Aqui vai o conteúdo do jogo -->
-    </div>
+    <header>
+        <h1>Agricultura Familiar</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <script src="script.js"></script>
+    <section class="banner">
+        <h2>Bem-vindo à Agricultura Familiar</h2>
+        <p>Conheça nossos produtos frescos e saudáveis diretamente da nossa família para a sua mesa.</p>
+    </section>
+
+    <section class="destaques">
+        <h2>Nossos Destaques</h2>
+        <div class="destaque-item">
+            <img src="imagem1.jpg" alt="Produto 1">
+            <h3>Nome do Produto 1</h3>
+            <p>Descrição breve do produto 1.</p>
+        </div>
+        <div class="destaque-item">
+            <img src="imagem2.jpg" alt="Produto 2">
+            <h3>Nome do Produto 2</h3>
+            <p>Descrição breve do produto 2.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Agricultura Familiar. Todos os direitos reservados.</p>
+    </footer>
 </body>
-<div id="game-screen">
-    <h1>Agricultura Familiar</h1>
-    <p id="money"></p>
-    <button onclick="plantCrop('Trigo')">Plantar Trigo ($10)</button>
-    <button onclick="harvestCrops()">Colher Culturas</button>
-    <h2>Culturas Plantadas</h2>
-    <ul id="crops"></ul>
-</div>
 </html>
